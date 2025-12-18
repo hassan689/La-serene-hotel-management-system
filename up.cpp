@@ -10,6 +10,7 @@ using namespace std;
 
 void backgroundmusic() {
     PlaySound(TEXT("You Are My Special"), NULL, SND_FILENAME | SND_ASYNC);
+    // these are the songs that I added in this just for fun 
     //Game Of Thrones
     //METAMORPHOSIS!
     //Way down we go
@@ -18,7 +19,7 @@ void backgroundmusic() {
 
 
 void m() {
-
+  /// this is the asci art just to make the console cool 
     system("color 0E");
     cout << " ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ \n";
     cout << "|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|\n";
@@ -420,7 +421,7 @@ public:
         delete[] array_for_availability;
     }
 };
-class RoomPrice : public HotelRoom, public Discount_Criteria
+class RoomPrice : public HotelRoom, public Discount_Criteria  // did inheritence here
 {
 protected:
     string fullname;
@@ -1757,4 +1758,5 @@ int main()
     }
     system("pause");
     return 0;
+
 }
